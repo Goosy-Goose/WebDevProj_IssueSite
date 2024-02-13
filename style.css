@@ -62,19 +62,25 @@
 .inline_labeled_images{
     /* background-color: tomato; */
     display: inline-block;
+    /* width: 49%; */
 }
 
 .labeled_image {
     display: grid;
     margin: auto;
+    width: 49%;
+    display: inline-block;
 }
 
 .image {
-    max-width: 50%;
-    max-height: 100vh;
+    width: 100%;
+    /* max-width: 50%;
+    max-height: 100vh; */
 }
 
 .label_text{
+    display: inline-block;
+    width: 49%;
     font-size: 18px;
 }
 
